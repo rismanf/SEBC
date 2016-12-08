@@ -1,3 +1,4 @@
+
 MariaDB [(none)]> SHOW SLAVE STATUS\G;
 *************************** 1. row ***************************
                Slave_IO_State: Waiting for master to send event
@@ -6,13 +7,13 @@ MariaDB [(none)]> SHOW SLAVE STATUS\G;
                   Master_Port: 3306
                 Connect_Retry: 60
               Master_Log_File: mysql_binary_log.000005
-          Read_Master_Log_Pos: 474
-               Relay_Log_File: mariadb-relay-bin.000002
-                Relay_Log_Pos: 536
+          Read_Master_Log_Pos: 23048452
+               Relay_Log_File: mariadb-relay-bin.000005
+                Relay_Log_Pos: 23048743
         Relay_Master_Log_File: mysql_binary_log.000005
              Slave_IO_Running: Yes
             Slave_SQL_Running: Yes
-              Replicate_Do_DB: unixmen
+              Replicate_Do_DB: 
           Replicate_Ignore_DB: 
            Replicate_Do_Table: 
        Replicate_Ignore_Table: 
@@ -21,8 +22,8 @@ MariaDB [(none)]> SHOW SLAVE STATUS\G;
                    Last_Errno: 0
                    Last_Error: 
                  Skip_Counter: 0
-          Exec_Master_Log_Pos: 474
-              Relay_Log_Space: 832
+          Exec_Master_Log_Pos: 23048452
+              Relay_Log_Space: 23049330
               Until_Condition: None
                Until_Log_File: 
                 Until_Log_Pos: 0
