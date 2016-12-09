@@ -4,3 +4,7 @@ name=Cloudera Manager
 baseurl=https://archive.cloudera.com/cm5/redhat/7/x86_64/cm/5.9/
 gpgkey =https://archive.cloudera.com/cm5/redhat/7/x86_64/cm/RPM-GPG-KEY-cloudera
 gpgcheck = 1
+
+
+
+/usr/share/cmf/schema/scm_prepare_database.sh mysql scm scm
